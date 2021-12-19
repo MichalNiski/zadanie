@@ -1,5 +1,9 @@
 ﻿/*
-
+Niestety nie udało mi się zaimplementować wielowątkowości. Potrafię sprawdzić pulę wątków, utowrzyć je i wywołać, natomiast nie potrafię
+podzielić zadań między nimi. Jedyne udane próby skończyły się na wywołaniu n wątków, ktore wykonały to samo zadanie n razy, jednak to
+mija się z celem, ponieważ w żaden sposób nie przyspiesza pracy, a wręcz przeciwnie - przedłuża ją i powtarza operacje na tych samych danych.
+Zdaję sobie sprawę, że mój program jest niekompletny, dlatego będę wdzięczny za wskazówki dotyczące zastosowania wielowątkowości i rozwiązania
+postawionego problemu.
 */
 
 #include <iostream>
